@@ -1,0 +1,50 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#header-nav {
+    padding: 0;
+    background-color: gainsboro;
+    border: solid black;
+}
+
+#header-nav > .container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 15px 0 5px 15px;
+}
+
+.navbar-brand a:link, .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    text-align: center;
+    padding: 0;
+}
+
+#collapsibleMenu li {
+    border-top: solid;
+}
+
+h2 {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#main-content {
+    margin-top: 40px;
+}
+
+#menu div {
+    background-color: gainsboro;
+    margin-bottom: 30px;
+}
