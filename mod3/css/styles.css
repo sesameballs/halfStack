@@ -63,3 +63,25 @@ h2 {
         width: 90%;
     }
 }
+
+/******* MEDIUM AND LARGE DEVICES *******/
+@media (min-width: 768px) and (max-width: 1199px) {
+    #chicken {
+        width: 48%;
+        margin-right: 4%;
+    }
+    #beef {
+        width: 48%;
+    }
+}
+
+/******* XL AND XXL DEVICES *******/
+@media (min-width: 1200px) {
+    #chicken, #beef {
+        width: 30%;
+        margin-right: 5%;
+    }
+    #sushi {
+        width: 30%;
+    }
+}
