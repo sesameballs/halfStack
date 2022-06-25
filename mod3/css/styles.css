@@ -2,6 +2,7 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+/* HEADER */
 #header-nav {
     padding: 0;
     background-color: gainsboro;
@@ -26,15 +27,21 @@
     font-weight: bold;
 }
 
-.navbar-collapse {
-    text-align: center;
-    padding: 0;
+#header-nav button {
+    margin-right: 10px;
 }
 
 #collapsibleMenu li {
+    padding: 0;
     border-top: solid;
+    background-color: #ebe78e;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
 }
+/* END HEADER */
 
+/* MAIN PAGE*/
 h2 {
     margin-top: 40px;
     font-weight: bold;
@@ -47,4 +54,12 @@ h2 {
 #menu div {
     background-color: gainsboro;
     margin-bottom: 30px;
+}
+/* END MAIN PAGE */
+
+/******* EXTRA SMALL DEVICES ONLY *******/
+@media (max-width: 575px) {
+    #main-content {
+        width: 90%;
+    }
 }
